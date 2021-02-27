@@ -1,0 +1,1 @@
+wsl genie -c bash /mnt/c/users/$env:username/.ubuntu/start_gnome_session.sh
