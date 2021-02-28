@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -x
 # Define necessary environment variables
 export DISPLAY="$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }'):1.0"

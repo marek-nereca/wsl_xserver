@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -x
 
 username=$(wslvar USERNAME)
@@ -5,7 +7,6 @@ cd /mnt/c/users/$username/.ubuntu/
 
 sudo apt-key adv --fetch-keys https://packages.microsoft.com/keys/microsoft.asc
 if [[ $(lsb_release -rs) == "18.04" ]]; then
-    echo "18"
     sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.04/prod bionic main" > /etc/apt/sources.list.d/microsoft-prod.list'
 else
     if [[ $(lsb_release -rs) == "20.04" ]]; then
