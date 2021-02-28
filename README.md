@@ -8,7 +8,7 @@ To make it work you need to have default Ubuntu 18.04 or Ubuntu 20.04 in WSL ver
 wsl -l -v
 ```
 
-VcsSrv needs to be installed in default path e.g. c:\program files\vcxsrv\
+VcxSrv needs to be installed in default path e.g. c:\program files\vcxsrv\
 
 To install vcxsrv via https://chocolatey.org
 ```powershell
