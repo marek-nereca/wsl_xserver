@@ -25,5 +25,7 @@ export XDG_PUBLICSHARE_DIR="$HOME/Public"
 export XDG_TEMPLATES_DIR="$HOME/Templates"
 export XDG_VIDEOS_DIR="$HOME/Videos"
 
+# Initialize systemd
+genie -i
 # Start desktop environment
 gnome-session
